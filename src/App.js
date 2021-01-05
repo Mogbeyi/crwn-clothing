@@ -1,6 +1,9 @@
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
+import Homepage from "./pages/homepage/homepage.component";
+
+function App() { 
   return (
     <div className="App">
       <h1>Hello world</h1>
